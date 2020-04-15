@@ -1,0 +1,1065 @@
+doctype
+
+html(lang='en')
+  head
+    - var title = "Demo Coursecode"
+    title #{title}
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+
+    link(rel='icon', type='static/ico', href='img/favicon.svg?v=13')
+
+    meta(property='og:url', content='#{title}')
+    meta(property='og:image', content='/img/ogg.png?v=1.2')
+    meta(property='og:image:width', content='300')
+    meta(property='og:image:height', content='300')
+
+    meta(property='og:title', content='#{title}')
+    meta(property='og:site_name', content='#{title}')
+    meta(property='og:description', content='#{title}')
+    meta(property='og:type', content='#{title}')
+    meta(name='description', content='#{title}')
+    meta(name='keywords', content='#{title}')
+
+    link(rel='stylesheet', href='https://voxlink.ru/wp-content/cache/autoptimize/css/autoptimize_8a69a415318276af51189cbe21d9089a.css')
+    
+    
+    
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js')
+
+  body <!--(data-img="img/1.png")-->
+
+    .top-banners.call-center
+      .inner
+        .top-banners-row
+          .top-banners-i(style='background-color: #ffc527')
+            img(src='https://voxlink.ru/wp-content/themes/voxlink/img/coursesIocn/intensive-course.svg', alt='')
+            p  &Kcy;&ucy;&rcy;&scy; &pcy;&ocy; Asterisk
+          .top-banners-i-after(data-cls='intensive-course')
+            img(src='https://voxlink.ru/wp-content/themes/voxlink/img/coursesIocn/intensive-course.png', alt='')
+            p
+              | &Icy;&ncy;&tcy;&iecy;&ncy;&scy;&icy;&vcy;-&kcy;&ucy;&rcy;&scy; &pcy;&ocy; Asterisk
+              strong
+                | &scy;
+                | 17 &fcy;&iecy;&vcy;&rcy;&acy;&lcy;&yacy;
+                | &pcy;&ocy; 21 &fcy;&iecy;&vcy;&rcy;&acy;&lcy;&yacy;
+            p
+              | &Kcy;&ocy;&lcy;&icy;&chcy;&iecy;&scy;&tcy;&vcy;&ocy;
+              br
+              |  &scy;&vcy;&ocy;&bcy;&ocy;&dcy;&ncy;&ycy;&khcy; &mcy;&iecy;&scy;&tcy;
+            span 2
+            a(href='https://asterisker.ru/intensiv-kurs/', target='_blank') &Zcy;&acy;&pcy;&icy;&scy;&acy;&tcy;&softcy;&scy;&yacy;
+          .top-banners-i(style='background-color: #719dfc')
+            img(src='https://voxlink.ru/wp-content/themes/voxlink/img/coursesIocn/call-center.svg', alt='')
+            p  Asterisk &vcy; Call-&tscy;&iecy;&ncy;&tcy;&rcy;&iecy;
+          .top-banners-i-after(data-cls='call-center')
+            img(src='https://voxlink.ru/wp-content/themes/voxlink/img/coursesIocn/call-center.png', alt='')
+            p
+              | Asterisk &vcy; Call-&tscy;&iecy;&ncy;&tcy;&rcy;&iecy;
+              strong
+                | &scy;
+                | 30 &mcy;&acy;&rcy;&tcy;&acy;
+                | &pcy;&ocy; 3 &acy;&pcy;&rcy;&iecy;&lcy;&yacy;
+            p
+              | &Kcy;&ocy;&lcy;&icy;&chcy;&iecy;&scy;&tcy;&vcy;&ocy;
+              br
+              |  &scy;&vcy;&ocy;&bcy;&ocy;&dcy;&ncy;&ycy;&khcy; &mcy;&iecy;&scy;&tcy;
+            span 8
+            a(href='https://asterisker.ru/asterisk-v-call-tsentre/', target='_blank') &Zcy;&acy;&pcy;&icy;&scy;&acy;&tcy;&softcy;&scy;&yacy;
+          .top-banners-i(style='background-color:  #00b7f4')
+            img(src='https://voxlink.ru/wp-content/themes/voxlink/img/coursesIocn/mikrotik.png', alt='')
+            p  &Kcy;&ucy;&rcy;&scy;&ycy; &pcy;&ocy; Mikrotik MTCNA
+          .top-banners-i-after(data-cls='mikrotik-course')
+            img(src='https://voxlink.ru/wp-content/themes/voxlink/img/coursesIocn/mikrotik1.png', alt='')
+            p
+              | &Kcy;&ucy;&rcy;&scy;&ycy; &pcy;&ocy; Mikrotik MTCNA
+              strong
+                | &scy;
+                | 10 &fcy;&iecy;&vcy;&rcy;&acy;&lcy;&yacy;
+                | &pcy;&ocy; 15 &fcy;&iecy;&vcy;&rcy;&acy;&lcy;&yacy;
+            p
+              | &Kcy;&ocy;&lcy;&icy;&chcy;&iecy;&scy;&tcy;&vcy;&ocy;
+              br
+              |  &scy;&vcy;&ocy;&bcy;&ocy;&dcy;&ncy;&ycy;&khcy; &mcy;&iecy;&scy;&tcy;
+            span 2
+            a(href='http://mikrotik-training.ru', target='_blank') &Zcy;&acy;&pcy;&icy;&scy;&acy;&tcy;&softcy;&scy;&yacy;
+
+  header
+    .header-top
+      .inner
+        .container-fluid
+          .row
+            .col-md-12
+              a.logo(href='/')
+                img(src='https://voxlink.ru/wp-content/themes/voxlink/minimg/logo.png')
+                p IP-&tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&icy;&yacy; &ncy;&acy; &bcy;&acy;&zcy;&iecy; Asterisk
+              .header-right-block
+                a.btn.btn-header(href='https://hd.voxlink.ru', target='_blank')
+                  i.icon.icon-login
+                  span &Vcy;&khcy;&ocy;&dcy; &dcy;&lcy;&yacy; &kcy;&lcy;&icy;&iecy;&ncy;&tcy;&ocy;&vcy;
+                a.btn.btn-header.btn-present(href='#')
+                  i.icon.icon-present
+                  span &ncy;&acy;&shcy;&icy; &Pcy;&rcy;&iecy;&zcy;&iecy;&ncy;&tcy;&acy;&tscy;&icy;&icy;
+                .top-present
+                  a(href='/files/101.pdf', download='') &Kcy;&ncy;&icy;&gcy;&acy; &quot;101 &fcy;&ucy;&ncy;&kcy;&tscy;&icy;&yacy; Asterisk&quot;
+                  a(href='/files/brief.pdf', download='') &Bcy;&rcy;&icy;&fcy; &ncy;&acy; &vcy;&ncy;&iecy;&dcy;&rcy;&iecy;&ncy;&icy;&iecy; Asterisk
+                  a(href='/files/diag.pdf', download='') &Scy;&acy;&mcy;&ocy;&dcy;&icy;&acy;&gcy;&ncy;&ocy;&scy;&tcy;&icy;&kcy;&acy; &kcy;&acy;&chcy;&iecy;&scy;&tcy;&vcy;&acy; &tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&icy;&icy;
+                  a(href='/files/voxdistro.pdf', download='') &Dcy;&icy;&scy;&tcy;&rcy;&icy;&bcy;&ucy;&tcy;&icy;&vcy; VoxDistro
+                  a(href='/files/intensive-course.pdf', download='') &Kcy;&ucy;&rcy;&scy; Asterisk-&Icy;&ncy;&tcy;&iecy;&ncy;&scy;&icy;&vcy;
+                  a(href='/files/callmetrix.pdf', download='') &Tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&ncy;&acy;&yacy; &kcy;&ncy;&icy;&gcy;&acy; CallMetrix
+                a.btn.btn-phone-grey.top-callback-open(href='#')
+                  i.icon.icon-phone-grey
+                  span &Ocy;&bcy;&rcy;&acy;&tcy;&ncy;&ycy;&jcy; &zcy;&vcy;&ocy;&ncy;&ocy;&kcy;
+                .top-callback
+                  h3 &Ocy;&bcy;&rcy;&acy;&tcy;&ncy;&ycy;&jcy; &zcy;&vcy;&ocy;&ncy;&ocy;&kcy;
+                  img(src='https://voxlink.ru/wp-content/themes/voxlink/minimg/callback-img.png', alt='')
+                  p
+                    | &Vcy;&vcy;&iecy;&dcy;&icy;&tcy;&iecy; &scy;&vcy;&ocy;&jcy; &ncy;&ocy;&mcy;&iecy;&rcy; &tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&acy;
+                    br
+                    |  &icy; &mcy;&ycy; &pcy;&iecy;&rcy;&iecy;&zcy;&vcy;&ocy;&ncy;&icy;&mcy; &vcy;&acy;&mcy;
+                  form.has-validation-callback
+                    input.ym-record-keys(type='hidden', name='action', value='submitForm')
+                    div(style='display: none;')
+                      input.ym-record-keys(type='text', name='fullName', value='')
+                    label
+                      input.ym-record-keys(type='text', name='phone', placeholder='Ваш телефон', im-insert='true', data-validation='required, number, length', data-validation-length='8-12', data-validation-ignore='+,(,),-, ')
+                    label
+                      input.ym-record-keys(type='text', name='time', placeholder='Удобное время')
+                    p
+                      strong &Rcy;&acy;&bcy;&ocy;&chcy;&iecy;&iecy; &vcy;&rcy;&iecy;&mcy;&yacy;:
+                      |  &Pcy;&ncy;. - &Pcy;&tcy;, &scy; 10:00 &dcy;&ocy; 19:00
+                    button &pcy;&iecy;&rcy;&iecy;&zcy;&vcy;&ocy;&ncy;&icy;&tcy;&iecy; &mcy;&ncy;&iecy;!
+                    label
+                      input.ym-record-keys(type='checkbox', name='agree', checked='', data-validation='required')
+                      span &Scy;&ocy;&gcy;&lcy;&acy;&shcy;&iecy;&ncy;&icy;&iecy; &ocy;&bcy; &ocy;&bcy;&rcy;&acy;&bcy;&ocy;&tcy;&kcy;&iecy; &pcy;&iecy;&rcy;&scy;&ocy;&ncy;&acy;&lcy;&softcy;&ncy;&ycy;&khcy; &dcy;&acy;&ncy;&ncy;&ycy;&khcy;
+              .calls
+                i.icon.icon-phone-big
+                .calls-right
+                  .calls-top
+                    span &Vcy; &Mcy;&ocy;&scy;&kcy;&vcy;&iecy;:
+                    p  8 (495) 989-85-33
+                  .calls-bot
+                    span &Rcy;&Fcy; (&Zcy;&vcy;&ocy;&ncy;&ocy;&kcy; &bcy;&iecy;&scy;&pcy;&lcy;&acy;&tcy;&ncy;&ycy;&jcy;):
+                    p 8 (800) 333-75-33
+              .mail
+                i.icon.icon-teleg
+                span team@voxlink.ru
+                .search-header
+                  form.search-sidebar.has-validation-callback(action='/')
+                    input.ym-record-keys(type='text', name='s', placeholder='Поиск по сайту', autocomplete='off')
+                    input.ym-record-keys(type='submit')
+    .header-mnu
+      .inner
+        .container-fluid
+          .row
+            .col-xs-12
+              .hamburger
+                span
+                span
+                span
+              ul
+                li.main-mnu
+                  ul
+                    li
+                      a(href='https://voxlink.ru/services/') &Ucy;&scy;&lcy;&ucy;&gcy;&icy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='', alt='')
+                                |  &Ucy;&scy;&lcy;&ucy;&gcy;&icy;
+                              p
+                                | &Rcy;&iecy;&shcy;&acy;&iecy;&mcy; &Vcy;&acy;&shcy;&icy; &bcy;&icy;&zcy;&ncy;&iecy;&scy;-&zcy;&acy;&dcy;&acy;&chcy;&icy; &scy; &pcy;&ocy;&mcy;&ocy;&shchcy;&softcy;&yucy; IT-&tcy;&iecy;&khcy;&ncy;&ocy;&lcy;&ocy;&gcy;&icy;&jcy;. &Zcy;&ncy;&acy;&iecy;&mcy;, &kcy;&acy;&kcy; &scy;&dcy;&iecy;&lcy;&acy;&tcy;&softcy; &lcy;&ucy;&chcy;&shcy;&iecy;, &bcy;&ycy;&scy;&tcy;&rcy;&iecy;&iecy; &icy; &dcy;&iecy;&shcy;&iecy;&vcy;&lcy;&iecy;. &Ncy;&acy;&shcy; &ocy;&pcy;&ycy;&tcy; &ndash; &ncy;&acy; &scy;&lcy;&ucy;&zhcy;&bcy;&iecy; &Vcy;&acy;&shcy;&iecy;&gcy;&ocy; &bcy;&icy;&zcy;&ncy;&iecy;&scy;&acy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/services/attacks/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/01_Аудит-IP-ATC.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Аудит-IP-ATC.png);')
+                              |  &Acy;&ucy;&dcy;&icy;&tcy; IP-ATC
+                            a(href='https://voxlink.ru/services/voice/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/02_Запись-IVR.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/02_Запись-IVR.png);')
+                              |  &Zcy;&acy;&pcy;&icy;&scy;&softcy; IVR
+                            a(href='https://voxlink.ru/services/dect-scan/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/01_DECT-разведка_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/01_DECT-разведка_18x18.png);')
+                              |  DECT &rcy;&acy;&zcy;&vcy;&iecy;&dcy;&kcy;&acy;
+                            a(href='https://voxlink.ru/services/networking/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/Проектирование-и-настройка-сети_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/Проектирование-и-настройка-сети_18x18.png);')
+                              |  &Pcy;&rcy;&ocy;&iecy;&kcy;&tcy;&icy;&rcy;&ocy;&vcy;&acy;&ncy;&icy;&iecy; &icy; &ncy;&acy;&scy;&tcy;&rcy;&ocy;&jcy;&kcy;&acy; &scy;&iecy;&tcy;&icy;
+                            a(href='https://voxlink.ru/services/ppa/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/03_Предпроектный-аудит.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/04_Предпроектный-аудит.png);')
+                              |  &Pcy;&rcy;&iecy;&dcy;&pcy;&rcy;&ocy;&iecy;&kcy;&tcy;&ncy;&ycy;&jcy; &acy;&ucy;&dcy;&icy;&tcy;
+                            a(href='https://voxlink.ru/services/qos-traffic/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/05_Приоритезация-трафика-QoS.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/06_Приоритезация-трафика-QoS-1.png);')
+                              |  &Pcy;&rcy;&icy;&ocy;&rcy;&icy;&tcy;&iecy;&zcy;&acy;&tscy;&icy;&yacy; &tcy;&rcy;&acy;&fcy;&icy;&kcy;&acy; QoS
+                          .col-md-3
+                            a(href='https://voxlink.ru/services/montazh-sks/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/06_Монтаж-СКС.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/07_Монтаж-СКС.png);')
+                              |  &Mcy;&ocy;&ncy;&tcy;&acy;&zhcy; &Scy;&Kcy;&Scy;
+                            a(href='https://voxlink.ru/services/old-pbx-upgrade/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/Модернизация-АТС_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/Модернизация-АТС_18x18.png);')
+                              |  &Mcy;&ocy;&dcy;&iecy;&rcy;&ncy;&icy;&zcy;&acy;&tscy;&icy;&yacy; &Acy;&Tcy;&Scy;
+                            a(href='https://voxlink.ru/services/guard/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/04_Защита-IP-ATC.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/Защита-IP-ATC_18x18.png);')
+                              |  &Zcy;&acy;&shchcy;&icy;&tcy;&acy; IP-ATC
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/kb/') &Bcy;&acy;&zcy;&acy; &zcy;&ncy;&acy;&ncy;&icy;&jcy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='https://voxlink.ru/wp-content/uploads/2017/11/graduate-copy.png', alt='')
+                                |  &Bcy;&acy;&zcy;&acy; &zcy;&ncy;&acy;&ncy;&icy;&jcy;
+                              p
+                                | &Ncy;&iecy; &vcy;&scy;&iecy; &gcy;&iecy;&rcy;&ocy;&icy; &ncy;&ocy;&scy;&yacy;&tcy; &pcy;&lcy;&acy;&shchcy;&icy;. &Scy;&ocy;&tcy;&ncy;&icy; &tcy;&iecy;&khcy;&icy;&chcy;&iecy;&scy;&kcy;&icy;&khcy; &scy;&tcy;&acy;&tcy;&iecy;&jcy;, &ncy;&acy;&pcy;&icy;&scy;&acy;&ncy;&ncy;&ycy;&khcy; &icy;&ncy;&zhcy;&iecy;&ncy;&iecy;&rcy;&acy;&mcy;&icy; &ncy;&acy;&shcy;&iecy;&jcy; &kcy;&ocy;&mcy;&pcy;&acy;&ncy;&icy;&icy;. &Dcy;&iecy;&lcy;&icy;&mcy;&scy;&yacy; &ocy;&pcy;&ycy;&tcy;&ocy;&mcy; &icy; &scy;&vcy;&ocy;&icy;&mcy;&icy; &zcy;&ncy;&acy;&ncy;&icy;&yacy;&mcy;&icy; &scy;&ocy; &vcy;&scy;&iecy;&mcy; &scy;&ocy;&ocy;&bcy;&shchcy;&iecy;&scy;&tcy;&vcy;&ocy;&mcy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/kb/radiophones/', data-img='https://voxlink.ru/wp-content/uploads/2019/07/02_DECT_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/07/02_DECT_18x18.png);')
+                              |  DECT
+                            a(href='https://voxlink.ru/kb/linux/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/01_Linux.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Linux.png);')
+                              |  Linux
+                            a(href='https://voxlink.ru/kb/integraciya-s-crm/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/02_Интеграция-с-CRM.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/02_Интеграция-с-CRM.png);')
+                              |  &Icy;&ncy;&tcy;&iecy;&gcy;&rcy;&acy;&tscy;&icy;&yacy; &scy; CRM
+                            a(href='https://voxlink.ru/kb/legacy-pbx-integration/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/11_Интеграция-с-другими-АТС.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/03_Интеграция-с-другими-АТС.png);')
+                              |  &Icy;&ncy;&tcy;&iecy;&gcy;&rcy;&acy;&tscy;&icy;&yacy; &scy; &dcy;&rcy;&ucy;&gcy;&icy;&mcy;&icy; &Acy;&Tcy;&Scy;
+                            a(href='https://voxlink.ru/kb/elastix/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/03_Использование-Elastix.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/04_Использование-Elastix.png);')
+                              |  &Icy;&scy;&pcy;&ocy;&lcy;&softcy;&zcy;&ocy;&vcy;&acy;&ncy;&icy;&iecy; Elastix
+                            a(href='https://voxlink.ru/kb/freepbx/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/04_Использование-FreePBX.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/05_Использование-FreePBX.png);')
+                              |  &Icy;&scy;&pcy;&ocy;&lcy;&softcy;&zcy;&ocy;&vcy;&acy;&ncy;&icy;&iecy; FreePBX
+                            a(href='https://voxlink.ru/kb/book/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/Книга_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/Книга_18x18.png);')
+                              |  &Kcy;&ncy;&icy;&gcy;&acy;
+                          .col-md-3
+                            a(href='https://voxlink.ru/kb/asterisk-configuration/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/05_Настройка-Asterisk.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/06_Настройка-Asterisk.png);')
+                              |  &Ncy;&acy;&scy;&tcy;&rcy;&ocy;&jcy;&kcy;&acy; Asterisk
+                            a(href='https://voxlink.ru/kb/ip-phones-configuration/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/06_Настройка-IP-телефонов.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/07_Настройка-IP-телефонов.png);')
+                              |  &Ncy;&acy;&scy;&tcy;&rcy;&ocy;&jcy;&kcy;&acy; IP-&tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&ocy;&vcy;
+                            a(href='https://voxlink.ru/kb/voip-devices-configuration/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/10_Настройка-VoIP-оборудования.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/08_Настройка-VoIP-оборудования.png);')
+                              |  &Ncy;&acy;&scy;&tcy;&rcy;&ocy;&jcy;&kcy;&acy; VoIP-&ocy;&bcy;&ocy;&rcy;&ucy;&dcy;&ocy;&vcy;&acy;&ncy;&icy;&yacy;
+                            a(href='https://voxlink.ru/kb/news/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/07_Новости-и-статьи.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/09_Новости-и-Статьи.png);')
+                              |  &Ncy;&ocy;&vcy;&ocy;&scy;&tcy;&icy; &icy; &Scy;&tcy;&acy;&tcy;&softcy;&icy;
+                            a(href='https://voxlink.ru/kb/itsp-connection/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/08_Подключение-операторов-связи.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/10_Подключение-операторов-связи.png);')
+                              |  &Pcy;&ocy;&dcy;&kcy;&lcy;&yucy;&chcy;&iecy;&ncy;&icy;&iecy; &ocy;&pcy;&iecy;&rcy;&acy;&tcy;&ocy;&rcy;&ocy;&vcy; &scy;&vcy;&yacy;&zcy;&icy;
+                            a(href='https://voxlink.ru/kb/asterisk-installation/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/09_Установка-Asterisk.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/11_Установка-Asterisk.png);')
+                              |  &Ucy;&scy;&tcy;&acy;&ncy;&ocy;&vcy;&kcy;&acy; Asterisk
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/ip-pbx-asterisk-functions/') &Fcy;&ucy;&ncy;&kcy;&tscy;&icy;&icy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='', alt='')
+                                |  &Fcy;&ucy;&ncy;&kcy;&tscy;&icy;&icy;
+                              p
+                                | &Scy;&ocy;&tcy;&ncy;&icy; &fcy;&ucy;&ncy;&kcy;&tscy;&icy;&jcy; &icy; &vcy;&ocy;&zcy;&mcy;&ocy;&zhcy;&ncy;&ocy;&scy;&tcy;&iecy;&jcy; Asterisk &pcy;&ocy;&mcy;&ocy;&gcy;&ucy;&tcy; &vcy;&ycy;&vcy;&iecy;&scy;&tcy;&icy; &kcy;&ocy;&mcy;&mcy;&ucy;&ncy;&icy;&kcy;&acy;&tscy;&icy;&icy; &vcy; &Vcy;&acy;&shcy;&iecy;&jcy; &kcy;&ocy;&mcy;&pcy;&acy;&ncy;&icy;&icy; &ncy;&acy; &pcy;&rcy;&icy;&ncy;&tscy;&icy;&pcy;&icy;&acy;&lcy;&softcy;&ncy;&ocy; &ncy;&ocy;&vcy;&ycy;&jcy; &ucy;&rcy;&ocy;&vcy;&iecy;&ncy;&softcy;. &Tcy;&iecy;&khcy;&ncy;&icy;&chcy;&iecy;&scy;&kcy;&icy;&iecy; &ocy;&gcy;&rcy;&acy;&ncy;&icy;&chcy;&iecy;&ncy;&icy;&yacy; &ndash; &fcy;&acy;&ncy;&tcy;&acy;&zcy;&icy;&yacy; &Zcy;&acy;&kcy;&acy;&zcy;&chcy;&icy;&kcy;&acy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/transit-call-recordings/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/01_Tranzitnaja_zapis_razgovorov.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Транзитная-запись-раговоров.png);')
+                              |  &Tcy;&rcy;&acy;&ncy;&zcy;&icy;&tcy;&ncy;&acy;&yacy; &zcy;&acy;&pcy;&icy;&scy;&softcy; &rcy;&acy;&gcy;&ocy;&vcy;&ocy;&rcy;&ocy;&vcy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/gsm-for-asterisk/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/11_Podkljuchenie_k_GSM.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/15_Подключение-к-GSM.png);')
+                              |  &Pcy;&ocy;&dcy;&kcy;&lcy;&yucy;&chcy;&iecy;&ncy;&icy;&iecy; &kcy; GSM
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/asterisk-callback/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/02_Обратный-звонок-_callback.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/02_Обратный-звонок.png);')
+                              |  &Ocy;&bcy;&rcy;&acy;&tcy;&ncy;&ycy;&jcy; &zcy;&vcy;&ocy;&ncy;&ocy;&kcy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/queue/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/18_Ocheredi_zvonkov.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/23_Очереди-звонков.png);')
+                              |  &Ocy;&chcy;&iecy;&rcy;&iecy;&dcy;&icy; &zcy;&vcy;&ocy;&ncy;&kcy;&ocy;&vcy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/fax-email/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/17_Priem_faksov_na_E-Mail.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/22_Прием-факсов-на-E-Mail.png);')
+                              |  &Pcy;&rcy;&icy;&iecy;&mcy; &fcy;&acy;&kcy;&scy;&ocy;&vcy; &ncy;&acy; E-Mail
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/videocalls/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/16_Videozvonki.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/21_Видеозвонки.png);')
+                              |  &Vcy;&icy;&dcy;&iecy;&ocy;&zcy;&vcy;&ocy;&ncy;&kcy;&icy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/conference-calls/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/15_Konferencsvjaz.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/20_Конференцсвязь.png);')
+                              |  &Kcy;&ocy;&ncy;&fcy;&iecy;&rcy;&iecy;&ncy;&tscy;&scy;&vcy;&yacy;&zcy;&softcy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/scalability/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/14_Masshtabiruemost.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/19_Масштабируемость.png);')
+                              |  &Mcy;&acy;&scy;&shcy;&tcy;&acy;&bcy;&icy;&rcy;&ucy;&iecy;&mcy;&ocy;&scy;&tcy;&softcy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/asterisk-operator-panel/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/13_Panel_operatora.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/18_Панель-оператора.png);')
+                              |  &Pcy;&acy;&ncy;&iecy;&lcy;&softcy; &ocy;&pcy;&iecy;&rcy;&acy;&tcy;&ocy;&rcy;&acy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/asterisk-control-panel/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/24_Панель-управления.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/17_Панель-управления.png);')
+                              |  &Pcy;&acy;&ncy;&iecy;&lcy;&softcy; &ucy;&pcy;&rcy;&acy;&vcy;&lcy;&iecy;&ncy;&icy;&yacy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/call-parking/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/12_Parkovka_vyzova.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/16_Парковка-вызова.png);')
+                              |  &Pcy;&acy;&rcy;&kcy;&ocy;&vcy;&kcy;&acy; &vcy;&ycy;&zcy;&ocy;&vcy;&acy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/calls-detail/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/23_Детализация-звонков.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/07_Детализация-звонков.png);')
+                              |  &Dcy;&iecy;&tcy;&acy;&lcy;&icy;&zcy;&acy;&tscy;&icy;&yacy; &zcy;&vcy;&ocy;&ncy;&kcy;&ocy;&vcy;
+                          .col-md-3
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/crm-integration/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/05_CRM.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/06_Интеграция-с-CRM-1.png);')
+                              |  &Icy;&ncy;&tcy;&iecy;&gcy;&rcy;&acy;&tscy;&icy;&yacy; &scy; CRM
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/ivr/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/04_Golosovoe_privetstvie.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/05_Голосовое-меню.png);')
+                              |  &Gcy;&ocy;&lcy;&ocy;&scy;&ocy;&vcy;&ocy;&iecy; &mcy;&iecy;&ncy;&yucy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/call-groups/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/03_Gruppy_vyzovov.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/04_Группы-вызова.png);')
+                              |  &Gcy;&rcy;&ucy;&pcy;&pcy;&ycy; &vcy;&ycy;&zcy;&ocy;&vcy;&acy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/security/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/21_Безопасность.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/03_Безопасность.png);')
+                              |  &Bcy;&iecy;&zcy;&ocy;&pcy;&acy;&scy;&ncy;&ocy;&scy;&tcy;&softcy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/geo-numbers/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/08_Geo_nomera.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/12_Геономера.png);')
+                              |  &Gcy;&iecy;&ocy; &ncy;&ocy;&mcy;&iecy;&rcy;&acy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/voice-mail/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/09_Golosovaja_pochta.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/13_Голосовая-почта-1.png);')
+                              |  &Gcy;&ocy;&lcy;&ocy;&scy;&ocy;&vcy;&acy;&yacy; &pcy;&ocy;&chcy;&tcy;&acy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/protect/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/10_Zashhita_ot_proslushki.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/14_Защита-от-прослушки.png);')
+                              |  &Zcy;&acy;&shchcy;&icy;&tcy;&acy; &ocy;&tcy; &pcy;&rcy;&ocy;&scy;&lcy;&ucy;&shcy;&kcy;&icy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/calls-plans/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/22_Номерные-Планы.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/24_Номерные-планы.png);')
+                              |  &Ncy;&ocy;&mcy;&iecy;&rcy;&ncy;&ycy;&iecy; &pcy;&lcy;&acy;&ncy;&ycy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/recording/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/19_Запись-разговоров.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/11_Запись-разговоров.png);')
+                              |  &Zcy;&acy;&pcy;&icy;&scy;&softcy; &rcy;&acy;&zcy;&gcy;&ocy;&vcy;&ocy;&rcy;&ocy;&vcy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/association/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/06_Obedinenie_ofisov.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/09_Объединение-офисов.png);')
+                              |  &Ocy;&bcy;&hardcy;&iecy;&dcy;&icy;&ncy;&iecy;&ncy;&icy;&iecy; &ocy;&fcy;&icy;&scy;&ocy;&vcy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/reservation/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/07_Sohranenie_nomera.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/10_Сохранение-номера-1.png);')
+                              |  &Scy;&ocy;&khcy;&rcy;&acy;&ncy;&iecy;&ncy;&icy;&iecy; &ncy;&ocy;&mcy;&iecy;&rcy;&acy;
+                            a(href='https://voxlink.ru/ip-pbx-asterisk-functions/asterisk-cheap-calls/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/20_Снижение-затрат.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/08_Снижение-затрат.png);')
+                              |  &Scy;&ncy;&icy;&zhcy;&iecy;&ncy;&icy;&iecy; &zcy;&acy;&tcy;&rcy;&acy;&tcy;
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/solutions/') IP-&Acy;&Tcy;&Scy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='https://voxlink.ru/wp-content/uploads/2017/11/4-copy.png', alt='')
+                                |  IP-&Acy;&Tcy;&Scy;
+                              p
+                                | &Vcy;&ycy; &pcy;&lcy;&acy;&tcy;&icy;&tcy;&iecy; &zcy;&acy; &scy;&icy;&scy;&tcy;&iecy;&mcy;&ucy;, &kcy;&ocy;&tcy;&ocy;&rcy;&acy;&yacy; &bcy;&ucy;&dcy;&iecy;&tcy; &pcy;&ocy;&lcy;&ncy;&ocy;&scy;&tcy;&softcy;&yucy; &scy;&ocy;&ocy;&tcy;&vcy;&iecy;&tcy;&scy;&tcy;&vcy;&ocy;&vcy;&acy;&tcy;&softcy; &Vcy;&acy;&shcy;&icy;&mcy; &ocy;&zhcy;&icy;&dcy;&acy;&ncy;&icy;&yacy;&mcy;, &tcy;&rcy;&iecy;&bcy;&ocy;&vcy;&acy;&ncy;&icy;&yacy;&mcy; &icy; &bcy;&ucy;&dcy;&iecy;&tcy; &dcy;&rcy;&acy;&jcy;&vcy;&iecy;&rcy;&ocy;&mcy; &rcy;&ocy;&scy;&tcy;&acy; &Vcy;&acy;&shcy;&iecy;&gcy;&ocy; &bcy;&icy;&zcy;&ncy;&iecy;&scy;&acy;
+                          .col-md-3
+                            a(href='https://voxlink.ru/solutions/small-business/', data-img='https://voxlink.ru/wp-content/uploads/2017/11/01_Малый-бизнес-1.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2017/11/01_Малый-Бизнес.png);')
+                              |  &Mcy;&acy;&lcy;&ycy;&jcy; &Bcy;&icy;&zcy;&ncy;&iecy;&scy;
+                            a(href='https://voxlink.ru/solutions/medium-business/', data-img='https://voxlink.ru/wp-content/uploads/2017/11/02_Средний-бизнес.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2017/11/02_Средний-бизнес.png);')
+                              |  &Scy;&rcy;&iecy;&dcy;&ncy;&icy;&jcy; &Bcy;&icy;&zcy;&ncy;&iecy;&scy;
+                            a(href='https://voxlink.ru/solutions/big-business/', data-img='https://voxlink.ru/wp-content/uploads/2017/11/03_Крупный-бизнес.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2017/11/03_Крупный-бизнес.png);')
+                              |  &Kcy;&rcy;&ucy;&pcy;&ncy;&ycy;&jcy; &Bcy;&icy;&zcy;&ncy;&iecy;&scy;
+                            a(href='https://voxlink.ru/solutions/komponenty-reshenij/', data-img='https://voxlink.ru/wp-content/uploads/2017/11/04_Компоненты-решений-1.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2017/11/04_Компоненты-решений.png);')
+                              |  &Kcy;&ocy;&mcy;&pcy;&ocy;&ncy;&iecy;&ncy;&tcy;&ycy; &rcy;&iecy;&shcy;&iecy;&ncy;&icy;&jcy;
+                            a(href='https://voxlink.ru/solutions/tehnicheskaja-podderzhka/', data-img='https://voxlink.ru/wp-content/uploads/2017/11/05_техподдержка.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2017/11/05_Техподдержка.png);')
+                              |  &Tcy;&iecy;&khcy;&ncy;&icy;&chcy;&iecy;&scy;&kcy;&acy;&yacy; &pcy;&ocy;&dcy;&dcy;&iecy;&rcy;&zhcy;&kcy;&acy;
+                            a(href='https://voxlink.ru/solutions/reporting_and_analitycs/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/Отчетнсть-и-аналитике-в-Asterisk_180x180.jpg')  &Ocy;&tcy;&chcy;&iecy;&tcy;&ncy;&ocy;&scy;&tcy;&softcy; &icy;&nbsp;&acy;&ncy;&acy;&lcy;&icy;&tcy;&icy;&kcy;&acy; &vcy;&nbsp;&Acy;&scy;&tcy;&iecy;&rcy;&icy;&scy;&kcy;&iecy;
+                          .col-md-3
+                            a(href='https://voxlink.ru/solutions/call-center/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/Колл-центр_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/Колл-центр_18x18.png);')
+                              |  &Kcy;&ocy;&lcy;&lcy;-&TScy;&iecy;&ncy;&tcy;&rcy;
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/call-center/') &Kcy;&ocy;&lcy;&lcy;-&tscy;&iecy;&ncy;&tcy;&rcy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='', alt='')
+                                |  &Kcy;&ocy;&lcy;&lcy;-&tscy;&iecy;&ncy;&tcy;&rcy;
+                              p
+                                | &Icy;&dcy;&tcy;&icy; &vcy; &ncy;&ocy;&gcy;&ucy; &scy;&ocy; &vcy;&rcy;&iecy;&mcy;&iecy;&ncy;&iecy;&mcy; &icy;&lcy;&icy; &ocy;&scy;&tcy;&acy;&vcy;&acy;&tcy;&softcy;&scy;&yacy; &ncy;&acy; &scy;&tcy;&acy;&rcy;&ycy;&khcy; &tcy;&iecy;&khcy;&ncy;&ocy;&lcy;&ocy;&gcy;&icy;&yacy;&khcy;? &Tcy;&acy;&kcy;&ocy;&jcy; &vcy;&ocy;&pcy;&rcy;&ocy;&scy; &ncy;&iecy; &scy;&tcy;&ocy;&icy;&tcy; &pcy;&iecy;&rcy;&iecy;&dcy; &ncy;&acy;&shcy;&icy;&mcy;&icy; &kcy;&lcy;&icy;&iecy;&ncy;&tcy;&acy;&mcy;&icy;. &Rcy;&iecy;&shcy;&acy;&iecy;&mcy; &scy;&acy;&mcy;&ycy;&iecy; &scy;&mcy;&iecy;&lcy;&ycy;&iecy; &zcy;&acy;&dcy;&acy;&chcy;&icy; &dcy;&lcy;&yacy; &Kcy;&ocy;&lcy;&lcy;-&TScy;&iecy;&ncy;&tcy;&rcy;&ocy;&vcy;. &Scy;&tcy;&rcy;&ocy;&icy;&mcy; &scy; &ncy;&ucy;&lcy;&yacy; &icy;&lcy;&icy; &rcy;&acy;&bcy;&ocy;&tcy;&acy;&iecy;&mcy; &scy; &scy;&ucy;&shchcy;&iecy;&scy;&tcy;&vcy;&ucy;&yucy;&shchcy;&icy;&mcy;&icy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/call-center/call-center-install/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/08_Внедрение-call-центров.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Внедрение-под-ключ-1.png);')
+                              |  &Vcy;&ncy;&iecy;&dcy;&rcy;&iecy;&ncy;&icy;&iecy; call-&tscy;&iecy;&ncy;&tcy;&rcy;&ocy;&vcy;
+                            a(href='https://voxlink.ru/call-center/supervisor/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/06_Супервайзер-системы.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/03_супервайзер-системы-1.png);')
+                              |  &Scy;&ucy;&pcy;&iecy;&rcy;&vcy;&acy;&jcy;&zcy;&iecy;&rcy; &scy;&icy;&scy;&tcy;&iecy;&mcy;&ycy;
+                            a(href='https://voxlink.ru/call-center/operator-workplace/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/09_Рабочее-место-оператора-колл-центра.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/02_Рабочее-место-оператора.png);')
+                              |  &Rcy;&acy;&bcy;&ocy;&chcy;&iecy;&iecy; &mcy;&iecy;&scy;&tcy;&ocy; &ocy;&pcy;&iecy;&rcy;&acy;&tcy;&ocy;&rcy;&acy; call-&tscy;&iecy;&ncy;&tcy;&rcy;&acy;
+                            a(href='https://voxlink.ru/call-center/predictive-dialer/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/07_Предиктивный-обзвон.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Предиктивный-обзвон.png);')
+                              |  &Pcy;&rcy;&iecy;&dcy;&icy;&kcy;&tcy;&icy;&vcy;&ncy;&ycy;&jcy; &ocy;&bcy;&zcy;&vcy;&ocy;&ncy;
+                            a(href='https://voxlink.ru/call-center/solutions/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/01_Схемы-и-решения.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/06_схемы-и-решения.png);')
+                              |  &Scy;&khcy;&iecy;&mcy;&ycy; &icy; &rcy;&iecy;&shcy;&iecy;&ncy;&icy;&yacy;
+                            a(href='https://voxlink.ru/call-center/statistika-i-analitika/', data-img='https://voxlink.ru/wp-content/uploads/2019/07/01_Статистика-и-аналитика_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/07/01_Статистика-и-аналитика_18x18.png);')
+                              |  &Scy;&tcy;&acy;&tcy;&icy;&scy;&tcy;&icy;&kcy;&acy; &icy; &acy;&ncy;&acy;&lcy;&icy;&tcy;&icy;&kcy;&acy;
+                          .col-md-3
+                            a(href='https://voxlink.ru/call-center/monitoring-kpi-koll-centra/', data-img='https://voxlink.ru/wp-content/uploads/2019/07/02_Мониторинг-KPI-Колл-Центра_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/07/02_Мониторинг-KPI-Колл-Центра_18x18.png);')
+                              |  &Mcy;&ocy;&ncy;&icy;&tcy;&ocy;&rcy;&icy;&ncy;&gcy; KPI &Kcy;&ocy;&lcy;&lcy;-&TScy;&iecy;&ncy;&tcy;&rcy;&acy;
+                            a(href='https://voxlink.ru/call-center/komponenty-reshenij/', data-img='https://voxlink.ru/wp-content/uploads/2019/07/03_Компоненты-решений_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/07/03_Компоненты-решений_18x18.png);')
+                              |  &Kcy;&ocy;&mcy;&pcy;&ocy;&ncy;&iecy;&ncy;&tcy;&ycy; &rcy;&iecy;&shcy;&iecy;&ncy;&icy;&jcy;
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/asterisk-crm-integration/') CRM
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='', alt='')
+                                |  CRM
+                              p
+                                | &Pcy;&ocy;&mcy;&iecy;&scy;&tcy;&icy;&tcy;&iecy; &scy;&vcy;&ocy;&jcy; &bcy;&icy;&zcy;&ncy;&iecy;&scy; &vcy; &ecy;&pcy;&icy;&tscy;&iecy;&ncy;&tcy;&rcy; &pcy;&rcy;&ocy;&dcy;&acy;&zhcy;. &Icy;&ncy;&tcy;&iecy;&gcy;&rcy;&acy;&tscy;&icy;&yacy; IP-&tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&icy;&icy; &icy; CRM &dcy;&acy;&scy;&tcy; &ncy;&ocy;&vcy;&ycy;&jcy; &icy; &mcy;&ocy;&shchcy;&ncy;&ycy;&jcy; &icy;&mcy;&pcy;&ucy;&lcy;&softcy;&scy; &Vcy;&acy;&shcy;&iecy;&mcy;&ucy; &Ocy;&tcy;&dcy;&iecy;&lcy;&ucy; &Pcy;&rcy;&ocy;&dcy;&acy;&zhcy; &icy; &vcy;&ycy;&vcy;&iecy;&dcy;&iecy;&tcy; &kcy;&ocy;&mcy;&pcy;&acy;&ncy;&icy;&yucy; &ncy;&acy; &tcy;&rcy;&icy; &shcy;&acy;&gcy;&acy; &vcy;&pcy;&iecy;&rcy;&iecy;&dcy;&icy; &kcy;&ocy;&ncy;&kcy;&ucy;&rcy;&iecy;&ncy;&tcy;&ocy;&vcy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/asterisk-crm-integration/custom-crm/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/01_Интеграция-телефонии-и-CRM.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Интеграция-телефонии-и-CRM.png);')
+                              |  &Icy;&ncy;&tcy;&iecy;&gcy;&rcy;&acy;&tscy;&icy;&yacy; &tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&icy;&icy; &icy; CRM
+                            a(href='https://voxlink.ru/asterisk-crm-integration/amocrm/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/02_amoCRM.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/02_amoCRM.png);')
+                              |  AmoCRM
+                            a(href='https://voxlink.ru/asterisk-crm-integration/bitrix24/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/03_Битрикс.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/03_bitrix.png);')
+                              |  Bitrix24
+                            a(href='https://voxlink.ru/asterisk-crm-integration/1c-crm/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/04_1С.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/04_1C.png);')
+                              |  1C:CRM
+                            a(href='https://voxlink.ru/asterisk-crm-integration/salesman-crm/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/05_SalesMan.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/05_Salesman.png);')
+                              |  SalesMan CRM
+                            a(href='https://voxlink.ru/asterisk-crm-integration/features/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/Новые-возможности_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/07/Новые-возможности_18x18.png);')
+                              |  &Ncy;&ocy;&vcy;&ycy;&iecy; &vcy;&ocy;&zcy;&mcy;&ocy;&zhcy;&ncy;&ocy;&scy;&tcy;&icy;
+                          .col-md-3
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/phone-numbers/') &Ncy;&ocy;&mcy;&iecy;&rcy;&acy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='', alt='')
+                                |  &Ncy;&ocy;&mcy;&iecy;&rcy;&acy;
+                              p
+                                | &Pcy;&ocy;&dcy;&bcy;&icy;&rcy;&acy;&iecy;&mcy; &dcy;&lcy;&yacy; &kcy;&lcy;&icy;&iecy;&ncy;&tcy;&ocy;&vcy; &tcy;&acy;&kcy;&icy;&iecy; &tcy;&acy;&rcy;&icy;&fcy;&ycy;, &kcy;&ocy;&tcy;&ocy;&rcy;&ycy;&iecy; &iecy;&mcy;&ucy; &rcy;&iecy;&dcy;&kcy;&ocy; &pcy;&ocy;&lcy;&ucy;&chcy;&icy;&tcy;&scy;&yacy; &ncy;&acy;&jcy;&tcy;&icy; &ncy;&acy; &rcy;&ycy;&ncy;&kcy;&iecy; &scy;&acy;&mcy;&ocy;&scy;&tcy;&ocy;&yacy;&tcy;&iecy;&lcy;&softcy;&ncy;&ocy;. &Rcy;&acy;&bcy;&ocy;&tcy;&acy;&iecy;&mcy; &scy; 100+ &ocy;&pcy;&iecy;&rcy;&acy;&tcy;&ocy;&rcy;&ocy;&vcy; &scy;&vcy;&yacy;&zcy;&icy; &vcy; &icy;&ncy;&tcy;&iecy;&rcy;&iecy;&scy;&acy;&khcy; &kcy;&lcy;&icy;&iecy;&ncy;&tcy;&acy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/phone-numbers/phones-495-499/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/06_Номера-в-коде-495_499.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/06_Телефонные-номера-в-коде-495_499.png);')
+                              |  &Ncy;&ocy;&mcy;&iecy;&rcy;&acy; &vcy; &kcy;&ocy;&dcy;&iecy; 495/499
+                            a(href='https://voxlink.ru/phone-numbers/phones-8-800/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/05_Номера-в-коде-8-800.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/05_Номерные-планы-8-800.png);')
+                              |  &Ncy;&ocy;&mcy;&iecy;&rcy;&acy; &vcy; &kcy;&ocy;&dcy;&iecy; 8-800
+                            a(href='https://voxlink.ru/phone-numbers/regional-numbers/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/02_Геономера.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/02_Гео-номера.png);')
+                              |  &Ncy;&ocy;&mcy;&iecy;&rcy;&acy; &rcy;&iecy;&gcy;&icy;&ocy;&ncy;&ocy;&vcy; &Rcy;&Fcy;
+                            a(href='https://voxlink.ru/phone-numbers/unlimited-tariffs/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/01_Безлимитные-тарифы.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Безлимитные-тарифы.png);')
+                              |  &Bcy;&iecy;&zcy;&lcy;&icy;&mcy;&icy;&tcy;&ncy;&ycy;&iecy; &tcy;&acy;&rcy;&icy;&fcy;&ycy;
+                            a(href='https://voxlink.ru/phone-numbers/outbound-phone-calls/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/04_Исходящая-телефонная-связь.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/04_Исходящая-телефонная-связь.png);')
+                              |  &Icy;&scy;&khcy;&ocy;&dcy;&yacy;&shchcy;&acy;&yacy; &tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&ncy;&acy;&yacy; &scy;&vcy;&yacy;&zcy;&softcy;
+                            a(href='https://voxlink.ru/phone-numbers/international-phone-calls/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/07_Международная-связь.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/07_Международная-связь.png);')
+                              |  &Mcy;&iecy;&zhcy;&dcy;&ucy;&ncy;&acy;&rcy;&ocy;&dcy;&ncy;&acy;&yacy; &scy;&vcy;&yacy;&zcy;&softcy;
+                          .col-md-3
+                            a(href='https://voxlink.ru/phone-numbers/skype-and-asterisk/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/03_Подключение-Skype.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/03_Подключение-Skype.png);')
+                              |  &Pcy;&ocy;&dcy;&kcy;&lcy;&yucy;&chcy;&iecy;&ncy;&icy;&iecy; Skype
+                            a(href='https://voxlink.ru/phone-numbers/podkljuchenie-fmc/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/Подключение-FMC_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/Подключение-FMC_18x18.png);')
+                              |  &Pcy;&ocy;&dcy;&kcy;&lcy;&yucy;&chcy;&iecy;&ncy;&icy;&iecy; FMC
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/products/') &Pcy;&rcy;&ocy;&dcy;&ucy;&kcy;&tcy;&ycy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='', alt='')
+                                |  &Pcy;&rcy;&ocy;&dcy;&ucy;&kcy;&tcy;&ycy;
+                              p
+                                | &Rcy;&acy;&zcy;&rcy;&acy;&bcy;&ocy;&tcy;&kcy;&icy;, &scy;&ocy;&zcy;&dcy;&acy;&ncy;&ncy;&ycy;&iecy; &ncy;&acy;&shcy;&iecy;&jcy; &kcy;&ocy;&mcy;&acy;&ncy;&dcy;&ocy;&jcy; &pcy;&ocy;&dcy; &zcy;&acy;&pcy;&rcy;&ocy;&scy;&ycy; &kcy;&lcy;&icy;&iecy;&ncy;&tcy;&ocy;&vcy;. &Ncy;&iecy; &ocy;&tcy;&kcy;&acy;&zcy;&ycy;&vcy;&acy;&jcy;&tcy;&iecy;&scy;&softcy; &ocy;&tcy; &icy;&ncy;&ncy;&ocy;&vcy;&acy;&tscy;&icy;&jcy;. &Mcy;&ycy; &pcy;&ocy;&mcy;&ocy;&zhcy;&iecy;&mcy; &icy;&dcy;&tcy;&icy; &scy; &ncy;&ocy;&gcy;&ucy; &scy;&ocy; &vcy;&rcy;&iecy;&mcy;&iecy;&ncy;&iecy;&mcy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/products/callforce/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/2_ПО-для-колл-центров-CallForce.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/06_ПО-для-Колл-центров-CallForce.png);')
+                              |  &Pcy;&Ocy; &dcy;&lcy;&yacy; &Kcy;&ocy;&lcy;&lcy;-&tscy;&iecy;&ncy;&tcy;&rcy;&ocy;&vcy; CallForce
+                            a(href='https://voxlink.ru/products/clusterisk/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/3_Кластеризация-серверов-Asterisk.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/07_Кластеризация.png);')
+                              |  &Kcy;&lcy;&acy;&scy;&tcy;&iecy;&rcy;&icy;&zcy;&acy;&tscy;&icy;&yacy; &scy;&iecy;&rcy;&vcy;&iecy;&rcy;&ocy;&vcy; Asterisk
+                            a(href='https://voxlink.ru/products/callmetrix/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/4_Телефонная-книга-CallMetrix.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Телефонная-книга-CallMetrix.png);')
+                              |  &Tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&ncy;&acy;&yacy; &kcy;&ncy;&icy;&gcy;&acy; CallMetrix
+                            a(href='https://voxlink.ru/products/qatrun/', data-img='')  QATRUN
+                            a(href='https://voxlink.ru/products/voxdistro/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/01_Дистрибутив-VoxDistro_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/01_Дистрибутив-VoxDistro_18x18.png);')
+                              |  VoxDistro
+                            a(href='https://voxlink.ru/products/autoconfig/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/03_Автоконфиг-телефонов-Vox-Provision_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/03_Автоконфиг-телефонов-Vox-Provision_18x18.png);')
+                              |  &Acy;&vcy;&tcy;&ocy;&kcy;&ocy;&ncy;&fcy;&icy;&gcy;
+                          .col-md-3
+                            a(href='https://voxlink.ru/products/calltracking/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/02_Коллтрекинг_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/02_Коллтрекинг_18x18.png);')
+                              |  &Kcy;&ocy;&lcy;&lcy;&tcy;&rcy;&iecy;&kcy;&icy;&ncy;&gcy;
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/edu/') &Ocy;&bcy;&ucy;&chcy;&iecy;&ncy;&icy;&iecy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='', alt='')
+                                |  &Ocy;&bcy;&ucy;&chcy;&iecy;&ncy;&icy;&iecy;
+                              p
+                                | &Ucy;&mcy;&ncy;&ycy;&iecy; &vcy;&scy;&yucy; &zhcy;&icy;&zcy;&ncy;&softcy; &ucy;&chcy;&acy;&tcy;&scy;&yacy;, &acy; &ocy;&scy;&tcy;&acy;&lcy;&softcy;&ncy;&ycy;&iecy; &vcy;&scy;&iecy;&gcy;&dcy;&acy; &vcy;&scy;&iecy; &icy; &tcy;&acy;&kcy; &zcy;&ncy;&acy;&yucy;&tcy;. &Mcy;&ycy; &pcy;&rcy;&ocy;&vcy;&ocy;&dcy;&icy;&mcy; &ocy;&bcy;&ucy;&chcy;&iecy;&ncy;&icy;&iecy; &bcy;&ocy;&lcy;&iecy;&iecy; 8 &lcy;&iecy;&tcy; &icy; &vcy;&ycy;&pcy;&ucy;&scy;&tcy;&icy;&lcy;&icy; &bcy;&ocy;&lcy;&iecy;&iecy; 1000 &scy;&pcy;&iecy;&tscy;&icy;&acy;&lcy;&icy;&scy;&tcy;&ocy;&vcy; &pcy;&ocy; Asterisk &icy; Mikrotik. &Pcy;&rcy;&ocy;&vcy;&ocy;&dcy;&icy;&mcy; &iecy;&zhcy;&iecy;&gcy;&ocy;&dcy;&ncy;&ucy;&yucy; &kcy;&ocy;&ncy;&fcy;&iecy;&rcy;&iecy;&ncy;&tscy;&icy;&yucy; Asterisk.
+                          .col-md-3
+                            a(href='https://voxlink.ru/edu/asterisk/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/01_Курсы-Asterisk.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Курсы-Asterisk.png);')
+                              |  &Kcy;&ucy;&rcy;&scy;&ycy; Asterisk
+                            a(href='https://voxlink.ru/edu/asterconf/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/03_Конференция-по-Asterisk_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/03_Конференция-по-Asterisk_18x18.png);')
+                              |  &Kcy;&ocy;&ncy;&fcy;&iecy;&rcy;&iecy;&ncy;&tscy;&icy;&yacy; &pcy;&ocy; Asterisk
+                            a(href='https://voxlink.ru/edu/vebinary/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/02_Вебинары_180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/06/02_Вебинаров_18x18.png);')
+                              |  &Vcy;&iecy;&bcy;&icy;&ncy;&acy;&rcy;&ycy;
+                            a(href='https://voxlink.ru/edu/mikrotik-courses/', data-img='https://voxlink.ru/wp-content/uploads/2019/06/01_Курсы-Mikrotik.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/wifi.svg);')
+                              |  &Kcy;&ucy;&rcy;&scy;&ycy; Mikrotik
+                          .col-md-3
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/projects/') &Vcy;&ncy;&iecy;&dcy;&rcy;&iecy;&ncy;&icy;&iecy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='', alt='')
+                                |  &Vcy;&ncy;&iecy;&dcy;&rcy;&iecy;&ncy;&icy;&iecy;
+                              p
+                                | &Kcy;&ucy;&pcy;&icy;&tcy;&softcy; &ncy;&acy;&shcy; &ocy;&pcy;&ycy;&tcy; &dcy;&iecy;&shcy;&iecy;&vcy;&lcy;&iecy;, &chcy;&iecy;&mcy; &ncy;&acy;&bcy;&icy;&vcy;&acy;&tcy;&softcy; &scy;&vcy;&ocy;&icy; &shcy;&icy;&shcy;&kcy;&icy;. &Mcy;&ycy; &rcy;&iecy;&acy;&lcy;&icy;&zcy;&ocy;&vcy;&acy;&lcy;&icy; &bcy;&ocy;&lcy;&iecy;&iecy; 800 &pcy;&rcy;&ocy;&iecy;&kcy;&tcy;&ocy;&vcy; &icy; &ncy;&acy;&kcy;&ocy;&pcy;&icy;&lcy;&icy; &ecy;&kcy;&scy;&pcy;&iecy;&rcy;&tcy;&icy;&zcy;&ucy; &dcy;&lcy;&yacy; &tcy;&ocy;&gcy;&ocy;, &chcy;&tcy;&ocy;&bcy;&ycy; &icy;&dcy;&iecy;&acy;&lcy;&softcy;&ncy;&ocy; &vcy;&ycy;&pcy;&ocy;&lcy;&ncy;&icy;&tcy;&softcy; &Vcy;&acy;&shcy; &pcy;&rcy;&ocy;&iecy;&kcy;&tcy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/projects/deployment/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/06_Комплексное-внедрение.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Комплексное-внедрение.png);')
+                              |  &Kcy;&ocy;&mcy;&pcy;&lcy;&iecy;&kcy;&scy;&ncy;&ocy;&iecy; &vcy;&ncy;&iecy;&dcy;&rcy;&iecy;&ncy;&icy;&iecy;
+                            a(href='https://voxlink.ru/projects/milestones/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/05_Этап-работ.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/02_Этып-работы.png);')
+                              |  &Ecy;&tcy;&acy;&pcy;&ycy; &rcy;&acy;&bcy;&ocy;&tcy;
+                            a(href='https://voxlink.ru/projects/training/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/04_Обучение.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/03_Обучение.png);')
+                              |  &Ocy;&bcy;&ucy;&chcy;&iecy;&ncy;&icy;&iecy;
+                            a(href='https://voxlink.ru/projects/project-passport/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/03_Паспорт-проекта.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/04_паспорт-проекта.png);')
+                              |  &Pcy;&acy;&scy;&pcy;&ocy;&rcy;&tcy; &pcy;&rcy;&ocy;&iecy;&kcy;&tcy;&acy;
+                            a(href='https://voxlink.ru/projects/device-docs/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/02_Документация-на-оборудование.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/05_Документация-на-оборудование.png);')
+                              |  &Dcy;&ocy;&kcy;&ucy;&mcy;&iecy;&ncy;&tcy;&acy;&tscy;&icy;&yacy; &ncy;&acy; &ocy;&bcy;&ocy;&rcy;&ucy;&dcy;&ocy;&vcy;&acy;&ncy;&icy;&iecy;
+                            a(href='https://voxlink.ru/projects/free-techsupport/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/01_Бесплатная-техподдержка.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/06_Бесплатная-техподдержка.png);')
+                              |  &Bcy;&iecy;&scy;&pcy;&lcy;&acy;&tcy;&ncy;&acy;&yacy; &tcy;&iecy;&khcy;&pcy;&ocy;&dcy;&dcy;&iecy;&rcy;&zhcy;&kcy;&acy;
+                          .col-md-3
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/ip-pbx-hardware/') &Ocy;&bcy;&ocy;&rcy;&ucy;&dcy;&ocy;&vcy;&acy;&ncy;&icy;&iecy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='https://voxlink.ru/wp-content/uploads/2017/11/box-open.png', alt='')
+                                |  &Ocy;&bcy;&ocy;&rcy;&ucy;&dcy;&ocy;&vcy;&acy;&ncy;&icy;&iecy;
+                              p
+                                | &Pcy;&rcy;&acy;&vcy;&icy;&lcy;&softcy;&ncy;&ycy;&jcy; &vcy;&ycy;&bcy;&ocy;&rcy; &ocy;&bcy;&ocy;&rcy;&ucy;&dcy;&ocy;&vcy;&acy;&ncy;&icy;&yacy; &pcy;&ocy;&zcy;&vcy;&ocy;&lcy;&yacy;&iecy;&tcy; &scy;&ecy;&kcy;&ocy;&ncy;&ocy;&mcy;&icy;&tcy;&softcy; &ocy;&tcy; 20 &dcy;&ocy; 50% &bcy;&yucy;&dcy;&zhcy;&iecy;&tcy;&acy; &tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&icy;&icy;. &Mcy;&ycy; &pcy;&rcy;&iecy;&dcy;&iecy;&lcy;&softcy;&ncy;&ocy; &vcy;&ncy;&icy;&mcy;&acy;&tcy;&iecy;&lcy;&softcy;&ncy;&ocy; &pcy;&ocy;&dcy;&ocy;&jcy;&dcy;&iecy;&mcy; &kcy; &vcy;&ycy;&bcy;&ocy;&rcy;&ucy; &laquo;&zhcy;&iecy;&lcy;&iecy;&zcy;&acy;&raquo; &vcy; &Vcy;&acy;&shcy; &pcy;&rcy;&ocy;&iecy;&kcy;&tcy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/ip-pbx-hardware/gsm-gateways/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/02_GSM-шлюзы.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/10_GSM-шлюзы.png);')
+                              |  GSM-&shcy;&lcy;&yucy;&zcy;&ycy;
+                            a(href='https://voxlink.ru/ip-pbx-hardware/audioconference/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/01_Аудиоконференцсвязь.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/09_Аудиоконференцсвязь.png);')
+                              |  &Acy;&ucy;&dcy;&icy;&ocy;&kcy;&ocy;&ncy;&fcy;&iecy;&rcy;&iecy;&ncy;&tscy;&scy;&vcy;&yacy;&zcy;&softcy;
+                            a(href='https://voxlink.ru/ip-pbx-hardware/videoconference/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/03_Видеоконференцсвязь.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/08_Видеоконференцсвязь.png);')
+                              |  &Vcy;&icy;&dcy;&iecy;&ocy;&kcy;&ocy;&ncy;&fcy;&iecy;&rcy;&iecy;&ncy;&tscy;&scy;&vcy;&yacy;&zcy;&softcy;
+                            a(href='https://voxlink.ru/ip-pbx-hardware/additional-devices/', data-img='https://voxlink.ru/wp-content/uploads/2017/11/1510724275_feature_image-3.png')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/11_Дополнительное-оборудование.png);')
+                              |  &Dcy;&ocy;&pcy;&ocy;&lcy;&ncy;&icy;&tcy;&iecy;&lcy;&softcy;&ncy;&ocy;&iecy; &ocy;&bcy;&ocy;&rcy;&ucy;&dcy;&ocy;&vcy;&acy;&ncy;&icy;&iecy;
+                            a(href='https://voxlink.ru/ip-pbx-hardware/radiophones/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/06_DECT.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/02_DECT.png);')
+                              |  DECT
+                            a(href='https://voxlink.ru/ip-pbx-hardware/ipphones/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/07_IP-телефоны.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/03_IP-телефоны.png);')
+                              |  IP-&tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&ycy;
+                          .col-md-3
+                            a(href='https://voxlink.ru/ip-pbx-hardware/network-devices/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/12_Сетевое-оборудование.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2018/12/network-equipment.svg);')
+                              |  &Scy;&iecy;&tcy;&iecy;&vcy;&ocy;&iecy; &ocy;&bcy;&ocy;&rcy;&ucy;&dcy;&ocy;&vcy;&acy;&ncy;&icy;&iecy;
+                            a(href='https://voxlink.ru/ip-pbx-hardware/analog-boards/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/10_Аналоговые-платы.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/05_Аналоговые-платы.png);')
+                              |  &Acy;&ncy;&acy;&lcy;&ocy;&gcy;&ocy;&vcy;&ycy;&iecy; &pcy;&lcy;&acy;&tcy;&ycy;
+                            a(href='https://voxlink.ru/ip-pbx-hardware/analog-phones/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/09_Аналоговые-телефоны.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/06_Аналоговые-телефоны.png);')
+                              |  &Acy;&ncy;&acy;&lcy;&ocy;&gcy;&ocy;&vcy;&ycy;&iecy; &tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy;&ycy;
+                            a(href='https://voxlink.ru/ip-pbx-hardware/headsets/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/11_Гарнитуры.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/07_Гарнитура.png);')
+                              |  &Gcy;&acy;&rcy;&ncy;&icy;&tcy;&ucy;&rcy;&ycy;
+                            a(href='https://voxlink.ru/ip-pbx-hardware/servers/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/05_Серверы.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/12_Серверы.png);')
+                              |  &Scy;&iecy;&rcy;&vcy;&iecy;&rcy;&ycy;
+                            a(href='https://voxlink.ru/ip-pbx-hardware/digital-boards/', data-img='https://voxlink.ru/wp-content/uploads/2019/01/13_Цифровые-платы.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/04_Цифровые-платы.png);')
+                              |  &TScy;&icy;&fcy;&rcy;&ocy;&vcy;&ycy;&iecy; &pcy;&lcy;&acy;&tcy;&ycy;
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/prices/') &TScy;&iecy;&ncy;&ycy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='', alt='')
+                                |  &TScy;&iecy;&ncy;&ycy;
+                              p
+                                | &Ncy;&acy;&shcy;&icy; &tscy;&iecy;&ncy;&ycy; &dcy;&ocy;&scy;&tcy;&ucy;&pcy;&ncy;&ycy; &ncy;&iecy; &tcy;&ocy;&lcy;&softcy;&kcy;&ocy; &dcy;&lcy;&yacy; &Mcy;&ocy;&scy;&kcy;&vcy;&ycy;, &ncy;&ocy; &icy; &dcy;&lcy;&yacy; &rcy;&iecy;&gcy;&icy;&ocy;&ncy;&ocy;&vcy;. &Acy; &vcy;&lcy;&ocy;&zhcy;&iecy;&ncy;&icy;&yacy; &vcy; &ncy;&acy;&shcy;&ucy; &ecy;&kcy;&scy;&pcy;&iecy;&rcy;&tcy;&icy;&zcy;&ucy; &ocy;&bcy;&ycy;&chcy;&ncy;&ocy; &ocy;&kcy;&ucy;&pcy;&acy;&yucy;&tcy;&scy;&yacy; &zcy;&acy; &ncy;&iecy;&scy;&kcy;&ocy;&lcy;&softcy;&kcy;&ocy; &mcy;&iecy;&scy;&yacy;&tscy;&iecy;&vcy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/prices/techsupport/', data-img='https://voxlink.ru/wp-content/uploads/2019/07/Цены-на-ТП-180x180.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/07/Цены-на-ТП-18x18.png);')
+                              |  &TScy;&iecy;&ncy;&ycy; &ncy;&acy; &tcy;&iecy;&khcy;&ncy;&icy;&chcy;&iecy;&scy;&kcy;&ucy;&yucy; &pcy;&ocy;&dcy;&dcy;&iecy;&rcy;&zhcy;&kcy;&ucy;
+                            a(href='https://voxlink.ru/prices/calls/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/02_Тарифы-на-связь.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/02_Тарифы-на-связь.png);')
+                              |  &Tcy;&acy;&rcy;&icy;&fcy;&ycy; &ncy;&acy; &scy;&vcy;&yacy;&zcy;&softcy;
+                          .col-md-3
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                    li
+                      a(href='https://voxlink.ru/about-us/') &Ocy; &ncy;&acy;&scy;
+                      .second-mnu
+                        .row
+                          .col-md-3
+                            .header-mnu-desc
+                              h4
+                                img(src='https://voxlink.ru/wp-content/uploads/2017/11/1-copy-6.png', alt='')
+                                |  &Ocy; &ncy;&acy;&scy;
+                              p
+                                | &Rcy;&acy;&bcy;&ocy;&tcy;&acy;&iecy;&mcy; &scy; 2011 &gcy;&ocy;&dcy;&acy;. &Scy;&ocy;&bcy;&rcy;&acy;&lcy;&icy; &ocy;&tcy;&lcy;&icy;&chcy;&ncy;&ucy;&yucy; &kcy;&ocy;&mcy;&acy;&ncy;&dcy;&ucy; &rcy;&iecy;&acy;&lcy;&softcy;&ncy;&ycy;&khcy; &fcy;&acy;&ncy;&acy;&tcy;&ocy;&vcy; &scy;&vcy;&ocy;&iecy;&gcy;&ocy; &dcy;&iecy;&lcy;&acy;. &Pcy;&ocy;&dcy;&khcy;&ocy;&dcy;&icy;&mcy; &kcy; &rcy;&acy;&bcy;&ocy;&tcy;&iecy; &scy; &dcy;&ucy;&shcy;&ocy;&jcy; &icy; &ocy;&tcy;&vcy;&iecy;&tcy;&scy;&tcy;&vcy;&iecy;&ncy;&ncy;&ocy;&scy;&tcy;&softcy;&yucy;.
+                          .col-md-3
+                            a(href='https://voxlink.ru/about-us/our-clients/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/01_Наши-клиенты.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/01_Наши-клиенты.png);')
+                              |  &Ncy;&acy;&shcy;&icy; &kcy;&lcy;&icy;&iecy;&ncy;&tcy;&ycy;
+                            a(href='https://voxlink.ru/about-us/sobstvennye-razrabotki/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/02_собственные-разработки.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/02_Собственные-разработки.png);')
+                              |  &Scy;&ocy;&bcy;&scy;&tcy;&vcy;&iecy;&ncy;&ncy;&ycy;&iecy; &rcy;&acy;&zcy;&rcy;&acy;&bcy;&ocy;&tcy;&kcy;&icy;
+                            a(href='https://voxlink.ru/about-us/letter-of-recommendation/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/06_Рекомендательные-письма.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/06_Письма.png);')
+                              |  &Rcy;&iecy;&kcy;&ocy;&mcy;&iecy;&ncy;&dcy;&acy;&tcy;&iecy;&lcy;&softcy;&ncy;&ycy;&iecy; &pcy;&icy;&scy;&softcy;&mcy;&acy;
+                            a(href='https://voxlink.ru/about-us/partners/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/05_Партнеры.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/05_партнеры.png);')
+                              |  &Pcy;&acy;&rcy;&tcy;&ncy;&iecy;&rcy;&ycy;
+                            a(href='https://voxlink.ru/about-us/team/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/04_Наша-команда.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/04_Наша-команда.png);')
+                              |  &Ncy;&acy;&shcy;&acy; &kcy;&ocy;&mcy;&acy;&ncy;&dcy;&acy;
+                            a(href='https://voxlink.ru/about-us/contact-us/', data-img='https://voxlink.ru/wp-content/uploads/2019/04/03_Контакты.jpg')
+                              span.second-mnu-icon(style='background-image: url(https://voxlink.ru/wp-content/uploads/2019/04/03_Контакты.png);')
+                              |  &Kcy;&ocy;&ncy;&tcy;&acy;&kcy;&tcy;&ycy;
+                          .col-md-3
+                          .col-md-3
+                            .first-img(style='background-image: none;')
+                li
+                  a.btn-korz.btn-korz-active(href='/cart/')
+                    i.icon.icon-korz
+                    .orange-circle.hide  0
+
+      .bread-line.bread-line-mod
+        .inner
+          .container-fluid
+            .row
+              .col-md-12
+                .name-razdel
+                  i.icon.icon-ipatc
+                  span Услуги
+                .bread-crumbs
+                  span(property='itemListElement', typeof='ListItem')
+                    a.home(property='item', typeof='WebPage', title='Go to Voxlink.', href='https://voxlink.ru')
+                      span(property='name') &Gcy;&lcy;&acy;&vcy;&ncy;&acy;&yacy;
+                    meta(property='position', content='1')
+                  i.icon.icon-arrow-grey
+                  span(property='itemListElement', typeof='ListItem')
+                    span(property='name') IP-АТС
+                    meta(property='position', content='2')
+                  i.icon.icon-arrow-grey
+                  span(property='itemListElement', typeof='ListItem')
+                    span(property='name') IP-телефония + CRM
+                    meta(property='position', content='2')
+
+  section.analytics_1.section__
+    .container
+      .row
+        .col-md-4.col-sm-12
+          h1.title Отчетность и аналитика в Астериске
+          a(href="#nextBlock" rel="m_PageScroll2id" class="mouseWheel")
+
+
+  section.analytics_2.section__#nextBlock
+    .container
+      .row
+        .col-md-12 
+          h3 Представьте, что Вы можете 24 часа в сутки быть в курсе всего, что происходит в Вашей компании. <span>Быть в курсе, это значит, точно знать:</span>
+      .row
+        .col-md-3
+          .box
+            img.images(srcset='img/analytics_2_icon_1.png', alt='analytics_2_icon_1')
+            p Когда позвонил клиент
+        .col-md-3
+          .box
+            img.images(srcset='img/analytics_2_icon_2.png', alt='analytics_2_icon_2')
+            p Как долго он ждал ответа
+
+        .col-md-3
+          .box
+            img.images(srcset='img/analytics_2_icon_3.png', alt='analytics_2_icon_3')
+            p Кто принял его звонок
+
+        .col-md-3
+          .box
+            img.images(srcset='img/analytics_2_icon_4.png', alt='analytics_2_icon_4')
+            p Сколько времени продолжался разговор
+
+        .col-md-3
+          .box
+            img.images(srcset='img/analytics_2_icon_5.png', alt='analytics_2_icon_5')
+            p Видеть точную картину уровня обслуживания клиентов
+
+        .col-md-3
+          .box
+            img.images(srcset='img/analytics_2_icon_6.png', alt='analytics_2_icon_6')
+            p Видеть причины разъединенных звонков
+
+        .col-md-3
+          .box
+            img.images(srcset='img/analytics_2_icon_7.png', alt='analytics_2_icon_7')
+            p Видеть распределяемость звонков по агентам
+
+        .col-md-3
+          .box
+            img.images(srcset='img/analytics_2_icon_8.png', alt='analytics_2_icon_8')
+            p Знать, кто из Ваших сотрудников работает лучше всего, а кому, возможно необходима помощь.
+            
+
+      .row
+        .col-md-5
+          p И это возможно, даже, если Вы не обладаете сверх способностями.
+
+          p.info Достаточно настроить свой бизнес на <span>Asternic Call Centers Stats.</span>
+          
+          P На сегодняшний день, это уже не предмет роскоши, а <span>неотъемлемый атрибут успешного, развивающегося бизнеса.</span> Информация представляется в «удобном» для восприятия и осмысления виде.
+
+         
+        .col-md-7
+          picture
+            source(srcset='img/analytics_2_img.png', media='(min-width: 801px)')
+            source(srcset='img/analytics_2_img.png', media='(max-width: 800px)')
+            img.images(srcset='img/analytics_2_img.png', alt='ip_employees_3_img')
+
+
+  section.analytics_3.section__
+    .container
+      .row
+        .col-md-8
+          img.images(srcset='img/analytics_3_img.png', alt='analytics_3_img')
+
+        .col-md-4
+          h2 Возможности панели Call-центра <span>Asternic Call Centers Stats<span>
+          span.lin 01
+          
+          p Панель Call-центра Asternic Call Centers Stats работает в реальном времени и позволяет операторам и администратору очереди, видеть самую свежую информацию, связанную с очередью.
+          span.lin 02
+          
+          p Панель Call-цента – это еще и модуль отчетов AsternicCC, который позволяет строить отчеты по работе call-центра:
+          ul.list
+            li Входящие звонки;
+            li Принятые/непринятые звонки по очередям и операторам;
+            li Распределение звонков между операторами;
+            li Монитор отображения текущих разговоров в call-центр;
+            li Отчет очереди входящих звонков и агентов;
+            li Уровень обслуживания входящих звонков;
+            li Нагрузка на очереди;
+            li Причина разъединения;
+            li Выбранный временной диапазон (час/день/месяц);
+            li Время ожидания/ продолжительность разговора очереди;
+            li Рейтинг покинувших очередь.
+            
+          .block
+            p Данный модуль отчетов не просто выбирает все звонки за какой-то период, а группирует, консолидирует данные и строит графики.
+          
+
+
+  section.analytics_4.section__
+    .container
+      .row
+        .col-md-12
+          h2 Как это работает?
+      .row
+        .col-md-5
+          span.lin 1.1 
+          p На главной странице выбираем период времени, за который будем строить отчет (это могут быть месяцы, а может быть текущий день), выбираем очереди входящих звонков и агентов, которые обрабатывают эти очереди. Нажимаете «Показать отчет».
+
+        .col-md-7
+          img.images(srcset='img/analytics_4_Img_1.png', alt='analytics_4_Img_1')
+      .row
+        .col-md-5
+          p Либо, например, посмотреть отчет по всей очереди звонков.
+
+        .col-md-7
+          img.images(srcset='img/analytics_4_Img_2.png', alt='analytics_4_Img_2')
+
+
+
+
+  section.analytics_5.section__
+    .container
+      .row
+        .col-md-5
+          span.lin 2.1 
+          p Далее, выбираете тип отчета, который хотите посмотреть. Например, первая группа отчетов отражают ситуацию по входящим вызовам:
+
+        .col-md-7
+          img.images(srcset='img/analytics_5_Img_1.png', alt='analytics_5_Img_1')
+      .row
+        .col-md-5
+          span.lin 2.2 
+          p Также можно посмотреть общую информацию по длительности звонков и отдельно по количеству звонков по агентам в графическом виде.
+
+        .col-md-7
+          img.images(srcset='img/analytics_5_Img_2.png', alt='analytics_5_Img_2')
+
+      hr
+
+      .row
+        .col-md-4
+          p Например, на данных графиках видно, что дольше всего по времени клиентов на линии удерживает агент, отмеченный 4-м на графике (4 столбец). Проверяем данные со второго графика о количестве звонков, где видно, что тот же агент (условно назовем его номер 4) получил большее количество звонков. Это позволяет сделать вывод, что агент работает больше, чем остальные агенты, т.е. его нагрузка выше, чем у остальных. Менее всего нагрузки получает агент с условным номером 13 (13 столбец на графиках). Учитывая эту информацию, можно пересмотреть нагрузку в очереди и сделать ее более равномерной.
+        .col-md-4
+          p Если же, у нас была бы картинка, где время удержания клиентов на линии было бы большим, а количество звонков было, напротив, маленьким, то можно было предположить, что данному агенту требуется помощь, т.к. он не может за короткий срок предоставить клиенту необходимую информацию.
+        .col-md-4
+          p Такой же вывод можно было бы сделать, если бы картинка была полностью противоположной. Т.е. низкие показатели по первому графику (Длительность звонков по агентам) и высокие показатели по 2 графику (Количество звонков по агентам). Можно было бы предположить, что агент вообще не может предоставить нужную клиенту информацию и клиент сразу «отключается» и уходит к конкурентам.
+
+      hr
+
+      .row
+        .col-md-12
+
+          span.lin 2.3
+          p На данной картинке можно оценить уровень обслуживания входящих звонков, увидеть нагрузку на очереди. Исходя, из этого отчета, можно понять, что самая большая нагрузка идет на очередь 600, а самая маленькая на очередь 610. Соответственно, можно внести изменения в работу очередей. Добавить сотрудников в очередь 600, например, либо проследить за качеством работы очереди 610, возможно, небольшое количество звонков объясняется недостаточно продуманным рекламным ходом, либо ограниченным выбором товаров и услуг, либо некорректной и некомпетентной работой агентов по этому направлению, что в дальнейшем может привести к финансовым потерям. И тогда, это уже «место» для углубленной аналитики.
+          
+          img.images(srcset='img/analytics_5_Img_3.png', alt='analytics_5_Img_3')
+          img.images(srcset='img/analytics_5_Img_4.png', alt='analytics_5_Img_4')
+
+
+      .row
+        .col-md-5
+          span.lin 2.4 
+          p Картина по причинам разъединения дает четкое представление по какой причине (или по чьей вине) компания теряет прибыль. В данном отчете видно, что причина в том, что клиент отключился сам, а не агент «сбросил звонок».
+
+        .col-md-7
+          img.images(srcset='img/analytics_5_Img_5.png', alt='analytics_5_Img_5')
+            
+      .row
+        .col-md-12
+        h4.info Если проанализировать отчет по очереди звонков (см. ниже п. 3), <span>можно сделать вывод по какой причине отключился клиент</span>, возможно, он слишком долго «висел в очереди» и не дождался ответа агента.
+
+  
+  section.analytics_6.section__
+    .container
+      .row
+        .col-md-12
+          h2 Отчеты по неотвеченным звонкам
+      .row
+          .col-md-5
+            span.lin 3.1 
+            p Данный вид отчётности в Asterisk, как раз показывает, что среднее время ожидания ответа агента в очереди, перед тем, как клиент отключился, составляет 59 сек., при том, что в очереди он находится (средняя позиция) 1-м, что может объяснить потерю клиентов (см. выше п. 2). Т.е. клиент слишком долго ожидает ответа агента. Это свидетельствует о необходимости добавить агентов, либо провести инструктаж с агентами по оптимизации уровня оказания услуг и по сокращению времени на обслуживание одного клиента.
+
+          .col-md-7
+            img.images(srcset='img/analytics_6_Img_1.png', alt='analytics_6_Img_1')
+
+      .row
+          .col-md-5
+            span.lin 3.2 
+            p Данный отчет позволяет сразу определить, в каких очередях больше неотвеченных звонков, и какая очередь нуждается в проработке.
+
+            p Очевидно, что необходимо оптимизировать работу в очереди 600. Что подтверждается следующим отчетом.
+
+          .col-md-7
+            img.images(srcset='img/analytics_6_Img_2.png', alt='analytics_6_Img_2')
+
+      .row
+          .col-md-5
+            span.lin 3.3 
+            p Время ожидания, начальная позиция и позиция звонящего при разъединени
+
+          .col-md-7
+            img.images(srcset='img/analytics_6_Img_3.png', alt='analytics_6_Img_3')
+      .row
+          .col-md-5
+            span.lin 3.4 
+            p И отчетом Причины разъединения звонков. Действительно, клиент слишком долго ждет ответа агента и, не дождавшись, уходит к конкурентам.
+          .col-md-7
+            img.images(srcset='img/analytics_6_Img_4.png', alt='analytics_6_Img_4')
+          
+          
+  section.analytics_7.section__
+    .container
+      .row
+        .col-md-5
+          h2 Распределение звонков по дням, часам в сутках и дням недели
+          p Следующая вкладка это — Распределение звонков по дням, часам в сутках и дням недели. Данный вид отчетности в Asterisk очень полезен в оценке нагруженных промежутков времени. Помогает правильно распределить приоритеты и графики работы операторов. Позволяет принять решение кого из сотрудников необходимо «взять на контроль» по причине слабой эффективности работы, а какому сотруднику, возможно, необходимо выделить премию за большую эффективность в работе.
+          
+        .col-md-7
+          .1slider__block__7
+            div
+             img.images(srcset='img/analytics_7_Img_1.png', alt='analytics_7_Img_1')
+            div
+             img.images(srcset='img/analytics_7_Img_1.png', alt='analytics_7_Img_1')
+             
+          .1slide-count-wrap
+            a(class="1slick7__arrow__prev")
+              img.images(srcset='img/analytics_7_arow_left.png', alt='analytics_7_arow_left.png')
+            span.1current
+            |  / 
+            span.1total
+            a(class="1slick7__arrow__next")
+              img.images(srcset='img/analytics_7_arrow_right.png', alt='analytics_7_arrow_right.png')
+
+
+
+
+      .row
+        .col-md-5
+          p Также <span>эта информация представлена в графическом виде</span>, что удобно для проведения совещаний по мониторингу качества работы всей организации.
+
+        .col-md-7
+          .2slider__block__7
+            div
+              img.images(srcset='img/analytics_7_Img_2.png', alt='analytics_7_Img_2')
+            div
+              img.images(srcset='img/analytics_7_Img_2.png', alt='analytics_7_Img_2')
+
+          .2slide-count-wrap
+            a(class="2slick7__arrow__prev")
+              img.images(srcset='img/analytics_7_arow_left.png', alt='analytics_7_arow_left.png')
+            span.2current
+            |  / 
+            span.2total
+            a(class="2slick7__arrow__next")
+              img.images(srcset='img/analytics_7_arrow_right.png', alt='analytics_7_arrow_right.png')
+
+     
+  section.analytics_8.section__
+    .container
+      .row
+        .col-md-12
+          h2 монитор состояния очередей, текущей занятости операторов и входящих звонков
+
+      .row
+        .col-md-5
+          span.lin 5.1 
+          p Следующая вкладка — это монитор состояния очередей, текущей занятости операторов и входящих звонков. Все экраны работают в режиме реального времени. Что позволяет определить, кто из агентов отвечает на звонок и, если есть необходимость, проследить уровень обслуживания клиента конкретным агентом в режиме «прослушки» или подключить функцию «суфлер» и помочь провести консультацию клиента.
+
+
+        .col-md-7
+
+          .3slider__block__7
+            div
+              img.images(srcset='img/analytics_8_Img_1.png', alt='analytics_8_Img_1')
+            div
+              img.images(srcset='img/analytics_8_Img_1.png', alt='analytics_8_Img_1')
+
+          .3slide-count-wrap
+            a(class="3slick7__arrow__prev")
+              img.images(srcset='img/analytics_7_arow_left.png', alt='analytics_7_arow_left.png')
+            span.3current
+            |  / 
+            span.3total
+            a(class="3slick7__arrow__next")
+              img.images(srcset='img/analytics_7_arrow_right.png', alt='analytics_7_arrow_right.png')
+
+
+      .row
+        .col-md-5
+          span.lin 5.2 
+          p Отчет об ожидающих в очереди, позволяет контролировать состояние очереди и, например, подключиться к очереди и помочь, принять вновь поступивший звонок, разгрузив немного очередь.
+
+
+        .col-md-7
+          .4slider__block__7
+            div
+              img.images(srcset='img/analytics_8_Img_2.png', alt='analytics_8_Img_2')
+            div
+              img.images(srcset='img/analytics_8_Img_2.png', alt='analytics_8_Img_2')
+
+          .4slide-count-wrap
+            a(class="4slick7__arrow__prev")
+              img.images(srcset='img/analytics_7_arow_left.png', alt='analytics_7_arow_left.png')
+            span.4current
+            |  / 
+            span.4total
+            a(class="4slick7__arrow__next")
+              img.images(srcset='img/analytics_7_arrow_right.png', alt='analytics_7_arrow_right.png')
+          
+  section.analytics_9.section__
+    .container
+      .row
+        .col-md-6
+            img.images(srcset='img/analytics_9_img.png', alt='analytics_9_img')
+        .col-md-6
+          h3 Аналитико-статистические отчеты по <span>Asternic Call Centers Stats</span> позволяют осуществлять мониторинг работы, как небольших call-офисов, так и крупных call-центров в считанные минуты.
+          p Углубленный анализ происходящих процессов, статистических выкладок дает возможность управлять процессами, по улучшению качества работы в самом начале возникновения проблемных моментов, не дожидаясь, когда они вырастут по принципу «снежного кома» и успеют снизить прибыль. Главное — это то, что теперь, Вы можете получать необходимую информацию по работе Ваших сотрудников в любом месте и в любое время простым вводом адреса в своем браузере.
+
+
+
+
+
+
+
+
+//    script(src='https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js')
+//script(src='https://voxlink.ru/wp-content/cache/autoptimize/js/autoptimize_b3b968adf31021ae5bf8cbf9950f8ab0.js')
+script(src=' https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js')
+
+//    footer
+//      .container
+//        .row
+//          .col.m12.s12.l12.xl12
+//            p &reg; 2020 #{title} All Rights Reserved
+
+
+
+
+
+
+
+
+
+
